@@ -56,6 +56,12 @@ node default {
   include nginx
   include nvm
 
+#JC likes
+  include vim
+  include tmux
+  include skype
+  include magican
+
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
     fail('Please enable full disk encryption and try again')
