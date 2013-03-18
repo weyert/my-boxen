@@ -34,7 +34,11 @@ github "sudo",     "1.0.0"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 #github "skype",		"1.0.0"
-github "vim", "1.0.0"
+#github "vim", "1.0.0"
 github "skype",     "1.0.0"
 github "tmux",     "1.0.0"
-github "magican",     "1.0.0"
+github "magican",     "1.0.1"
+github "growl_fork", "1.0.0", :repo => "petems/puppet-growl_fork"
+github "textmate", "1.1.0", :repo => "AquaGeek/puppet-textmate2"
+github "sublime_text_2", "1.1.0"
+github "vagrant", "1.0.0"

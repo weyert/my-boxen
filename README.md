@@ -256,3 +256,8 @@ It'll just be listed under the boxen org so folks can find it more easily.
 See [FAQ](https://github.com/boxen/our-boxen/blob/master/docs/faq.md).
 
 Use Issues or #boxen on irc.freenode.net.
+
+
+***
+my notes
+I had to run /opt/boxen/nvm/install.sh on the command line for nvm to show in the PATH

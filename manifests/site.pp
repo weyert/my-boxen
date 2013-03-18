@@ -56,11 +56,16 @@ node default {
   include nginx
   include nvm
 
+
 #JC likes
-  include vim
+#  include vim
   include tmux
   include skype
   include magican
+  include growl_fork
+  include textmate
+  include sublime_text_2
+  include vagrant
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
