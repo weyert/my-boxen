@@ -45,4 +45,3 @@ github "vagrant", "1.0.0"
 #mod, <module name>, <version or tag>, <source>
 github "chrome", "1.1.0"
 github "postgresql", "1.0.0"
-github "sysctl", "1.0.0"
