@@ -67,8 +67,14 @@ node default {
   include sublime_text_2
   include vagrant
   include postgresql
+  include graphviz
+  include mysql
+  include dropbox
+  include firefox
+  include autojump
+  include zsh
+  include emacs
 
-  
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
     fail('Please enable full disk encryption and try again')
