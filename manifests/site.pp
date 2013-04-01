@@ -97,7 +97,8 @@ node default {
       'ack',
       'findutils',
       'gnu-tar',
-      'tree'
+      'tree',
+      'htop-osx'
     ]:
   }
 
