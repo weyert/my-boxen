@@ -78,9 +78,7 @@ node default {
   include zsh
   include emacs
   include slate
-  include textmate::textmate2::release  # normal release
- # include textmate::textmate2::beta     # beta releases
- # include textmate::textmate2::nightly  # nightly releases
+
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
     fail('Please enable full disk encryption and try again')

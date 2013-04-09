@@ -31,7 +31,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-emacs
   specs:
-    emacs (1.0.0)
+    emacs (1.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-firefox
@@ -124,6 +124,11 @@ GITHUBTARBALL
     skype (1.0.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-slate
+  specs:
+    slate (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-sublime_text_2
   specs:
     sublime_text_2 (1.1.0)
@@ -179,7 +184,7 @@ DEPENDENCIES
   chrome (= 1.1.0)
   dnsmasq (= 1.0.0)
   dropbox (= 1.1.0)
-  emacs (= 1.0.0)
+  emacs (= 1.1.0)
   firefox (= 1.0.3)
   gcc (= 1.0.0)
   git (= 1.0.0)
@@ -200,11 +205,13 @@ DEPENDENCIES
   postgresql (= 1.0.0)
   ruby (= 3.3.1)
   skype (= 1.0.2)
+  slate (= 1.0.0)
   stdlib (= 3.0.0)
   sublime_text_2 (= 1.1.0)
   sudo (= 1.0.0)
   swig (= 1.0.0)
   sysctl (= 1.0.0)
+  textmate (= 1.1.0)
   textmate (= 1.1.0)
   tmux (= 1.0.0)
   vagrant (= 1.0.1)
