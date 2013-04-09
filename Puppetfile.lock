@@ -1,9 +1,4 @@
 GITHUBTARBALL
-  remote: AquaGeek/puppet-textmate2
-  specs:
-    textmate (1.1.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-autojump
   specs:
     autojump (1.0.0)
@@ -149,6 +144,11 @@ GITHUBTARBALL
     sysctl (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-textmate
+  specs:
+    textmate (1.1.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-tmux
   specs:
     tmux (1.0.0)
@@ -211,7 +211,6 @@ DEPENDENCIES
   sudo (= 1.0.0)
   swig (= 1.0.0)
   sysctl (= 1.0.0)
-  textmate (= 1.1.0)
   textmate (= 1.1.0)
   tmux (= 1.0.0)
   vagrant (= 1.0.1)

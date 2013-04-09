@@ -39,7 +39,6 @@ github "skype",     "1.0.2"
 github "tmux",     "1.0.0"
 github "magican",     "1.0.1"
 github "growl_fork", "1.0.4", :repo => "petems/puppet-growl_fork"
-github "textmate", "1.1.0", :repo => "AquaGeek/puppet-textmate2"
 github "sublime_text_2", "1.1.0"
 github "vagrant", "1.0.1"
 #mod, <module name>, <version or tag>, <source>

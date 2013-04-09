@@ -63,11 +63,10 @@ node default {
   include skype
   include magican
   include growl_fork
-  include textmate
   include sublime_text_2
-  sublime_text_2::package { 'Emmet':
-  source => 'sergeche/emmet-sublime'
-}
+#  sublime_text_2::package { 'Emmet':
+#  source => 'sergeche/emmet-sublime'
+#}
   include vagrant
   include postgresql
   include graphviz
@@ -81,7 +80,8 @@ node default {
   include textmate::textmate2::release  # normal release
  # include textmate::textmate2::beta     # beta releases
  # include textmate::textmate2::nightly  # nightly releases
-  # fail if FDE is not enabled
+
+ # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
     fail('Please enable full disk encryption and try again')
   }
