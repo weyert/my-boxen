@@ -5,12 +5,13 @@ class people::jcowhigjr {
 
   $home      = "/Users/${::luser}"
   $devfolder = "${home}/my"
-  $dotfiles  = "${devfolder}/dotfiles"
-	file { $devfolder: 
-  	ensure => "directory"
-	}
-  repository { $dotfiles:
-    source  => 'jcowhigjr/dotfiles',
-    require => File[$devfolder]
-  }
+
+#  $dotfiles  = "${devfolder}/dotfiles"
+#	file { $devfolder: 
+#  	ensure => "directory"
+#	}
+#  repository { $dotfiles:
+#    source  => 'jcowhigjr/dotfiles',
+#    require => File[$devfolder]
+#  }
 }

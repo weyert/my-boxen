@@ -58,15 +58,13 @@ node default {
 
 
 #JC likes
-#  include vim
+  #  include vim
   include tmux
   include skype
   include magican
   include growl_fork
   include sublime_text_2
-#  sublime_text_2::package { 'Emmet':
-#  source => 'sergeche/emmet-sublime'
-#}
+#  sublime_text_2::package{'Emmet' :source => 'sergeche/emmet-sublime'}
   include vagrant
   include postgresql
   include graphviz
@@ -80,8 +78,20 @@ node default {
   include textmate::textmate2::release  # normal release
  # include textmate::textmate2::beta     # beta releases
  # include textmate::textmate2::nightly  # nightly releases
+  include mou
+  include ctags
+#  include titanium
 
- # fail if FDE is not enabled
+
+  # include vagrant
+  # vagrant::plugin { 'vagrant-vmware-fusion':
+  #   license => 'puppet:///modules/people/joe/licenses/fusion.lic',
+  # }
+  # vagrant::box { 'squeeze64/vmware_fusion':
+  #   source => 'https://s3.amazonaws.com/github-ops/vagrant/squeeze64-6.0.7-vmware_fusion.box'}
+
+
+# fail if FDE is not enabled
   if $::root_encrypted == 'no' {
     fail('Please enable full disk encryption and try again')
   }
