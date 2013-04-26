@@ -13,7 +13,7 @@ end
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
-github "boxen", "1.3.0"
+github "boxen", "1.2.0"
 
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
@@ -27,14 +27,13 @@ github "inifile",  "0.9.0", :repo => "cprice-puppet/puppetlabs-inifile"
 github "nginx",    "1.1.0"
 github "nodejs",   "1.0.0"
 github "nvm",      "1.0.0"
-github "ruby",     "3.5.0"	
+github "ruby",     "3.1.0"
 github "stdlib",   "3.0.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",     "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
-#github "skype",		"1.0.0"
-#github "vim", "1.0.0"
+github "vim",      "1.0.0"
 github "skype",     "1.0.2"
 github "tmux",     "1.0.0"
 github "magican",     "1.0.1"
@@ -67,4 +66,4 @@ github "textmate", "1.1.0"
 github "mou", "1.0.0"
 github "ctags", "1.0.0"
 #github "vagrant", "2.0.6"
-github "titanium", "1.1.2", :repo => "inakiabt/boxen-titanium"
+#github "titanium", "1.1.2", :repo => "inakiabt/boxen-titanium"
