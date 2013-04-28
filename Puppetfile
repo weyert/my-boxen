@@ -33,37 +33,55 @@ github "sudo",     "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
-github "vim",      "1.0.0"
-github "skype",     "1.0.2"
-github "tmux",     "1.0.0"
-github "magican",     "1.0.1"
-github "growl_fork", "1.0.4", :repo => "petems/puppet-growl_fork"
-github "sublime_text_2", "1.1.0"
-github "vagrant", "1.0.1"
+
+# Internals
+github "osx", 			"1.0.0"
+github "dropbox", 		"1.1.0"
+github "caffeine",		"1.0.0"
+github "alfred",		"1.0.2"
+github "java",			"1.1.0"
+github "transmit",		"1.0.0"
+github "wget",			"1.0.0"
+
+# Misc
+github "spotify",		"1.0.0"
+github "istatmenus4", 	"1.0.0"
+github "skitch",		"1.0.0"
+
+# Server technologies
+github "mysql", 		"1.1.0"
+github "vagrant", 		"2.0.6"
+github "heroku", 		"2.0.0"
+
 #mod, <module name>, <version or tag>, <source>
-github "chrome", "1.1.0"
-github "postgresql", "1.0.0"
-github "sysctl", "1.0.0"
-#github "bindkey", "1.0.0"
-#github "zmodload", "1.0.0"
-#github "autoload", "1.0.0"
-#github "zle", "1.0.0"
-#github "zstyle", "1.0.0"
-github "graphviz", "1.0.0"
-github "pkgconfig", "1.0.0"
-github "swig", "1.0.0"
-github "pcre", "1.0.0"
-github "mysql", "1.0.0"
-github "autojump", "1.0.0"
-github "firefox", "1.0.3"
-github "dropbox", "1.1.0"
-github "osx", "1.0.0"
-github "zsh", "1.0.0"
-github "emacs", "1.1.0"
-github "heroku", "2.0.0"
-github "slate", "1.0.0"
-github "textmate", "1.1.0"
-github "mou", "1.0.0"
-github "ctags", "1.0.0"
-#github "vagrant", "2.0.6"
-#github "titanium", "1.1.2", :repo => "inakiabt/boxen-titanium"
+
+# Communications
+github "skype",     	 "1.0.2"
+github "adium",			 "1.1.1"
+
+# Editors
+github "sublime_text_2", "1.1.0"
+github "textmate", 	 	 "1.1.0"
+github "mou",			 "1.0.0"
+
+# Developer tools
+github "virtualbox",	 "1.0.2"
+github "imageoptim",	 "0.0.2"
+github "sourcetree",	 "0.0.2"
+github "sequel_pro",	 "1.0.0"
+
+# Browsers
+github "firefox", 		 "1.0.5"
+github "chrome", 	     "1.1.0"
+
+
+# Personal Applications of weyertdeboer
+github "transmission",	"1.0.0"
+github "vlc",			"1.0.1"
+github "phpstorm", 	    "1.0.2"
+github "textual",		"1.0.0"
+github "vmware_fusion",	"1.0.0"
+github "things",		"1.0.0"
+github "screen",		"1.0.0"
+github "onepassword",	"1.0.0"
+github "evernote",		"1.0.1", :repo = "jasonamyers/puppet-evernote.git"

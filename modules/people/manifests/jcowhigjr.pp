@@ -1,6 +1,6 @@
-include people::jcowhigjr::applications
+include people::weyert::applications
 
-class people::jcowhigjr {
+class people::weyert {
   include homebrew
 
   $home      = "/Users/${::luser}"
@@ -11,7 +11,7 @@ class people::jcowhigjr {
 #  	ensure => "directory"
 #	}
 #  repository { $dotfiles:
-#    source  => 'jcowhigjr/dotfiles',
+#    source  => 'weyert/dotfiles',
 #    require => File[$devfolder]
 #  }
 }

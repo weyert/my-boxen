@@ -1,3 +1,3 @@
-class people::glarizza::applications {
+class people::weyert::applications {
   include chrome
 }
