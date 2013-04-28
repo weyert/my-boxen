@@ -36,6 +36,8 @@ github "sudo",     "1.0.0"
 
 # Internals
 github "osx", 			"1.0.0"
+
+# Applications
 github "dropbox", 		"1.1.0"
 github "caffeine",		"1.0.0"
 github "alfred",		"1.0.2"
