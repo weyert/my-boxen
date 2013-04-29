@@ -1,6 +1,6 @@
 class people::weyert::applications {
 
- 	# User-specific applications
+   	# User-specific applications
   	include transmission
   	include onepassword
 
@@ -10,11 +10,17 @@ class people::weyert::applications {
   	include textual
   	include screen
 
+    # Browsers
+    include chrome::canary
+    include firefox::nightly
+
     # Development tools
   	include phpstorm
   	include vmware_fusion
 
     # Custom applications
+    package { 'wget': }
+
     package { 'Timer':
       source   => 'http://www.apimac.com/download/timer.dmg',
       provider => appdmg,

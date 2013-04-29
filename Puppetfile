@@ -73,7 +73,7 @@ github "sourcetree",	 "0.0.2"
 github "sequel_pro",	 "1.0.0"
 
 # Browsers
-github "firefox", 		 "1.0.5"
+github "firefox", 		 "1.0.6", :repo => "weyert/puppet-firefox"
 github "chrome", 	     "1.1.0"
 
 
