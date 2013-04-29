@@ -20,7 +20,7 @@ class people::weyert::applications {
       provider => appdmg,
     }
 
-    package { 'VirtualHostX'
+    package { 'VirtualHostX':
       source   => 'http://dl.clickontyler.com/virtualhostx/virtualhostx40_4.0.6.zip',
       provider => 'compressed_app'
     }
