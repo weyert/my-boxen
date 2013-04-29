@@ -1,7 +1,7 @@
 class people::weyert::repositories (
-  $my_sourcedir = $people::glarizza::params::my_sourcedir,
-  $my_homedir   = $people::glarizza::params::my_homedir,
-  $my_username  = $people::glarizza::params::my_username
+  $my_sourcedir = $people::weyert::params::my_sourcedir,
+  $my_homedir   = $people::weyert::params::my_homedir,
+  $my_username  = $people::weyert::params::my_username
 ) {
 
   ###############################
