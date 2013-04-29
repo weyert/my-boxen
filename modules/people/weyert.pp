@@ -1,3 +1,5 @@
+include people::weyert::applications
+
 class people::weyert {
   include people::weyert::params
   include people::weyert::applications

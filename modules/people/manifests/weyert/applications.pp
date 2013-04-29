@@ -19,4 +19,9 @@ class people::weyert::applications {
       source   => 'http://www.apimac.com/download/timer.dmg',
       provider => appdmg,
     }
+
+    package { 'VirtualHostX'
+      source   => 'http://dl.clickontyler.com/virtualhostx/virtualhostx40_4.0.6.zip',
+      provider => 'compressed_app'
+    }
 }
