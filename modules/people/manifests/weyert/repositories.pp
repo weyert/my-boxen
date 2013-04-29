@@ -1,4 +1,4 @@
-lass people::glarizza::repositories (
+lass people::weyert::repositories (
   $my_sourcedir = $people::glarizza::params::my_sourcedir,
   $my_homedir   = $people::glarizza::params::my_homedir,
   $my_username  = $people::glarizza::params::my_username
