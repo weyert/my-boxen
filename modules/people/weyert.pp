@@ -12,7 +12,7 @@ class people::weyert {
   $dotfiles_dir = "${boxen::config::srcdir}/.oh-my-zsh"
 
   repository { $dotfiles_dir:
-    source => "weyert/oh-my-zsh"
+    source => "${::github_user}/oh-my-zsh"
   }
 
   file { "${home}/.zshrc":

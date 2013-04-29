@@ -6,7 +6,7 @@ class people::weyert::applications {
 
   	# Editors
   	include wedge
-    include evernote
+    # include evernote
   	include textual
   	include screen
 
