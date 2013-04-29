@@ -23,7 +23,6 @@ class keytree::environment {
   # Communication tools
   include skype
   include adium
-  include evernote
 
   # Entertainment
   include vlc
@@ -31,5 +30,4 @@ class keytree::environment {
 
   # Programming Languages
   include java
-  
 }
