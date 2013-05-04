@@ -54,6 +54,7 @@ github "skitch",		"1.0.0"
 github "mysql", 		"1.1.0"
 github "vagrant", 		"2.0.6"
 github "heroku", 		"2.0.0"
+github "redis",			"1.0.0"
 
 #mod, <module name>, <version or tag>, <source>
 
@@ -71,9 +72,10 @@ github "virtualbox",	 "1.0.2"
 github "imageoptim",	 "0.0.2"
 github "sourcetree",	 "0.0.2"
 github "sequel_pro",	 "1.0.0"
+github "mongodb",		 "1.0.0"
 
 # Browsers
-github "firefox", 		 "1.0.6", :repo => "weyert/puppet-firefox"
+github "firefox", 		 "1.0.5", :repo => "weyert/puppet-firefox"
 github "chrome", 	     "1.1.0"
 
 

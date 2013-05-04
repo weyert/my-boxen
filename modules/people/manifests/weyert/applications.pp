@@ -12,7 +12,7 @@ class people::weyert::applications {
 
     # Browsers
     include chrome::canary
-    include firefox::nightly
+    #include firefox::nightly
 
     # Development tools
   	include phpstorm
