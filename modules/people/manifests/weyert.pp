@@ -20,6 +20,8 @@ class people::weyert {
   }
 
   # Update the shell ZSH with oh-my-zsh support
+  include zsh
+
   notify { 'class people::weyert: Updating the shell to use ZSH including ': }
   repository { $dotfiles_dir:
     source => "weyert/oh-my-zsh"
@@ -29,5 +31,9 @@ class people::weyert {
     ensure  => link,
     target  => "${dotfiles_dir}/.zshrc",
     require => Repository[$dotfiles_dir]
+  }
+
+  osx_chsh { $::luser:
+    shell   => "${boxen::config::homebrewdir}/bin/zsh",
   }
 }

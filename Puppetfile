@@ -35,7 +35,8 @@ github "sudo",     "1.0.0"
 # https://github.com/boxen.
 
 # Internals
-github "osx", 			"1.0.0"
+github "osx", 			"1.1.0"
+github "zsh",			"1.0.0"
 
 # Applications
 github "dropbox", 		"1.1.0"

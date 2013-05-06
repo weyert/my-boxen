@@ -63,7 +63,7 @@ PLATFORMS
 
 DEPENDENCIES
   aws-sdk
-  boxen (~> 1.0)
+  boxen (~> 1.1)
   librarian-puppet (~> 0.9.9)!
   net-ssh
   open4 (~> 1.3)
