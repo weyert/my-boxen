@@ -116,7 +116,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-osx
   specs:
-    osx (1.0.0)
+    osx (1.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-phpstorm
@@ -224,9 +224,19 @@ GITHUBTARBALL
     wget (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-zsh
+  specs:
+    zsh (1.0.0)
+
+GITHUBTARBALL
   remote: cprice-puppet/puppetlabs-inifile
   specs:
     inifile (0.9.0)
+
+GITHUBTARBALL
+  remote: glarizza/puppet-property_list_key
+  specs:
+    property_list_key (0.1.0)
 
 GITHUBTARBALL
   remote: jasonamyers/puppet-evernote
@@ -275,8 +285,9 @@ DEPENDENCIES
   nodejs (= 1.0.0)
   nvm (= 1.0.0)
   onepassword (= 1.0.0)
-  osx (= 1.0.0)
+  osx (= 1.1.0)
   phpstorm (= 1.0.2)
+  property_list_key (= 0.1.0)
   redis (= 1.0.0)
   ruby (= 3.1.0)
   screen (= 1.0.0)
@@ -299,4 +310,5 @@ DEPENDENCIES
   vmware_fusion (= 1.0.0)
   wedge (= 1.0.1)
   wget (= 1.0.0)
+  zsh (= 1.0.0)
 

@@ -35,6 +35,7 @@ github "sudo",     "1.0.0"
 # https://github.com/boxen.
 
 # Internals
+github "property_list_key", "0.1.0",  :repo => "glarizza/puppet-property_list_key"
 github "osx", 			"1.1.0"
 github "zsh",			"1.0.0"
 
