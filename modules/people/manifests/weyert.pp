@@ -2,9 +2,9 @@ class people::weyert {
   require git::config
 
   include people::weyert::params
-  include people::weyert::privacy_params
   include people::weyert::applications
   include people::weyert::repositories
+  include people::weyert::privacy_params
   include people::weyert::config
 
   notify { 'class people::weyert declared': }

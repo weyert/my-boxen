@@ -4,9 +4,6 @@ class people::weyert::config (
   $my_username  = $people::weyert::params::my_username
 ) {
 
-  # Recovery message
-  osx::recovery_message { "If this Mac is found, please call and collect your reward ${people::weyert::privacy_params::my_phonenumber}": }
-
   # Common OSX default configurations
   boxen::osx_defaults { 'Change software update check frequency to daily':
 	key    => 'ScheduleFrequency',

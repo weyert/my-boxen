@@ -8,6 +8,6 @@ class projects::extjs {
     mysql         => false,
     nginx         => true,
     source        => 'weyert/extjs_docs',
-    dir           => '/Users/weyertdeboer/Development/Frameworks/ExtJS/4.1.3'
+    dir           => '/Users/weyertdeboer/Development/Frameworks/ExtJS/4.1.3/workspace/www'
   }
 }
