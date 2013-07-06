@@ -23,6 +23,6 @@ class projects::if_pjhoreca {
 		mysql         => false,
 		nginx         => true,
 		source        => 'weyert/project_default',
-		dir           => '/Users/weyertdeboer/Development/Innerfuse/Projects/Personal/if_pjhoreca/workspace/www'
+		dir           => '/Users/weyertdeboer/Development/Innerfuse/Projects/Personal/if_pjhoreca'
 	}
 }
