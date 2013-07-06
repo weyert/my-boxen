@@ -28,8 +28,9 @@ class people::weyert::applications {
 	}
 
 	# Custom applications
-	package { 'wget': }
+#	package { 'wget': }
 	package { 'unrar': }
+#	package { 'libpng': }
 
 	# Dearchiving application for the Mac
 	package { 'Rucksack':

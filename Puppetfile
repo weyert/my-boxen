@@ -35,34 +35,41 @@ github "sudo",       "1.0.0"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
+# Required secondary utilities
+github "pkgconfig",  "1.0.0"
+github "autoconf",	 "1.0.0"
+github "pcre",       "1.0.0"
+github "libtool",	 "1.0.0"
+
 # Internals
-github "property_list_key", "0.1.0",  :repo => "glarizza/puppet-property_list_key"
-github "osx", 			"1.1.0"
+github "property_list_key", "0.1.0"
+github "osx", 			"1.4.0"
 github "zsh",			"1.0.0"
 
 # Applications
-github "dropbox", 		"1.1.0"
+github "dropbox", 		"1.1.1"
 github "caffeine",		"1.0.0"
-github "alfred",		"1.0.2"
-github "java",			"1.1.0"
-github "transmit",		"1.0.0"
+github "alfred",		"1.1.1"
+github "java",			"1.1.2"
+github "transmit",		"1.0.1"
 github "wget",			"1.0.0"
 
 # Misc
-github "spotify",		"1.0.0"
+github "spotify",		"1.0.1"
 github "istatmenus4", 	"1.0.0"
-github "skitch",		"1.0.0"
+github "skitch",		"1.0.1"
 
 # Server technologies
-github "mysql", 		"1.1.0"
-github "vagrant", 		"2.0.6"
+github "mysql", 		"1.1.3"
+github "vagrant", 		"2.0.7"
 github "heroku", 		"2.0.0"
 github "redis",			"1.0.0"
+github "php",			"1.0.0"
 
 #mod, <module name>, <version or tag>, <source>
 
 # Communications
-github "skype",     	 "1.0.2"
+github "skype",     	 "1.0.3"
 github "adium",			 "1.1.1"
 
 # Editors
@@ -71,30 +78,30 @@ github "textmate", 	 	 "1.1.0"
 github "mou",			 "1.0.0"
 
 # Developer tools
-github "virtualbox",	 "1.0.2"
+github "virtualbox",	 "1.0.4"
 github "imageoptim",	 "0.0.2"
-github "sourcetree",	 "0.0.2"
+github "sourcetree",	 "0.0.4"
 github "sequel_pro",	 "1.0.0"
-github "mongodb",		 "1.0.0"
-github "charles",		 "1.0.1", :repo => "newtriks/puppet-charles"
+github "mongodb",		 "1.0.4"
+github "charles",		 "1.0.2"
 
 # Browsers
-github "firefox", 		 "1.0.5", :repo => "weyert/puppet-firefox"
+github "firefox", 		 "1.1.1"
 github "chrome", 	     "1.1.0"
 
 
 # Personal Applications of weyertdeboer
 github "transmission",	"1.0.0"
-github "vlc",			"1.0.1"
+github "vlc",			"1.0.3"
 github "phpstorm", 	    "1.0.3"
-github "textual",		"1.0.0"
+github "textual",		"1.1.2"
 github "vmware_fusion",	"1.0.0"
-github "things",		"1.0.0"
+github "things",		"1.0.1"
 github "screen",		"1.0.0"
-github "onepassword",	"1.0.0"
-github "wedge",         "1.0.1", :repo => "jasonamyers/puppet-wedge"
-github "evernote",      "1.0.0", :repo => "jasonamyers/puppet-evernote"
+github "onepassword",	"1.0.2"
+github "wedge",         "1.0.1"
+github "evernote",      "2.0.3"
 github "iterm2",		"1.0.2"
 github "sizeup",		"1.0.0"
 github "appcode2",		"1.0.0"
-github "intellij",		"1.2.0"
+github "intellij",		"1.3.0"

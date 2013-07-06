@@ -17,11 +17,17 @@ class projects::if_pjhoreca {
 	nodejs::module { 'grunt-cli': node_version => 'v0.10' }
 	nodejs::module { 'bower': node_version => 'v0.10' }
 
-	boxen::project { 'if_pjhoreca':
-		dotenv        => false,
-		elasticsearch => false,
-		mysql         => false,
-		nginx         => true,
+	# project preparation
+	$version = '5.3.23'
+	include php::5_3_23
+	include php::fpm::5_3_23
+
+	php::project { 'if_pjhoreca':
+	    elasticsearch => false,
+	    mysql         => true,
+	    nginx         => 'php/nginx/nginx.conf.erb',
+	    redis         => false,
+	    php           => $version,
 		source        => 'weyert/project_default',
 		dir           => '/Users/weyertdeboer/Development/Innerfuse/Projects/Personal/if_pjhoreca'
 	}
