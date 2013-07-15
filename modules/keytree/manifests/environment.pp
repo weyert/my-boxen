@@ -4,7 +4,10 @@ class keytree::environment {
   # Applications
   include chrome
   include firefox
+
+  # Virtualisation
   include virtualbox
+  include vmware_fusion
   
   # Menubar applications
   include alfred
