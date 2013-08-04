@@ -88,7 +88,7 @@ github "mongodb",		 "1.0.4"
 github "charles",		 "1.0.2"
 
 # Browsers
-github "firefox", 		 "1.1.1"
+github "firefox", 		 "1.1.2", :repo => "weyert/puppet-firefox"
 github "chrome", 	     "1.1.1"
 
 
