@@ -13,7 +13,7 @@ class people::weyert::applications {
 	# Browsers
 	include chrome::canary
   	include chrome::dev  	
-	# include firefox::nightly
+	include firefox::nightly
 
 	# Development tools
 	include charles
@@ -21,16 +21,15 @@ class people::weyert::applications {
 
 	# Jetbrains products
 	include phpstorm
-	include appcode2
 	class { 'intellij':
 	    edition => 'community',
 	    version => '12.1.3'
 	}
 
 	# Custom applications
-#	package { 'wget': }
+	#	package { 'wget': }
 	package { 'unrar': }
-#	package { 'libpng': }
+	package { 'libpng': }
 
 	# Dearchiving application for the Mac
 	package { 'Rucksack':
