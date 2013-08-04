@@ -59,6 +59,7 @@ github "wget",			"1.0.0"
 github "spotify",		"1.0.1"
 github "istatmenus4", 	"1.0.0"
 github "skitch",		"1.0.2"
+github "xquartz", 		"1.0.0"
 
 # Server technologies
 github "mysql", 		"1.1.3"

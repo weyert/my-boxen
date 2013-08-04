@@ -156,7 +156,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-phpstorm
   specs:
-    phpstorm (6.0.1)
+    phpstorm (1.0.3)
 
 GITHUBTARBALL
   remote: boxen/puppet-pkgconfig
@@ -326,7 +326,7 @@ DEPENDENCIES
   osx (= 1.5.0)
   pcre (= 1.0.0)
   php (= 1.1.1)
-  phpstorm (= 6.0.1)
+  phpstorm (= 1.0.3)
   pkgconfig (= 1.0.0)
   property_list_key (= 0.1.0)
   redis (= 1.0.0)
