@@ -5,18 +5,28 @@ class people::weyert::applications {
 	#include onepassword
 	#include sizeup
 
+	include dropbox
+	include spotify
+	include skype
+	include adium	
+
 	# Editors
 	include wedge
 	include textual
 	include screen
+	include sublime_text_2
+	include textmate
 
 	# Browsers
 	include chrome::canary
   	include chrome::dev  	
+	include firefox
 	include firefox::nightly
 
 	# Development tools
 	#include charles
+	include sourcetree
+	include sequel_pro
 	include vmware_fusion
 
 	# Jetbrains products
