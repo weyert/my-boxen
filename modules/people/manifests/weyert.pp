@@ -1,6 +1,7 @@
 class people::weyert {
   require git::config
 
+  include keytree::environment
   include people::weyert::params
   include people::weyert::applications
   include people::weyert::repositories
