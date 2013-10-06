@@ -2,8 +2,8 @@ class people::weyert::applications {
 
 	# User-specific applications
 	include transmission
-	include onepassword
-	include sizeup
+	#include onepassword
+	#include sizeup
 
 	# Editors
 	include wedge
@@ -16,14 +16,14 @@ class people::weyert::applications {
 	include firefox::nightly
 
 	# Development tools
-	include charles
+	#include charles
 	include vmware_fusion
 
 	# Jetbrains products
 	include phpstorm
 	class { 'intellij':
 	    edition => 'community',
-	    version => '12.1.3'
+	    version => '12.1.5'
 	}
 
 	# Custom applications

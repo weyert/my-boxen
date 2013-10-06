@@ -1,12 +1,12 @@
 GITHUBTARBALL
   remote: boxen/puppet-adium
   specs:
-    adium (1.1.1)
+    adium (1.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-alfred
   specs:
-    alfred (1.1.2)
+    alfred (1.1.5)
 
 GITHUBTARBALL
   remote: boxen/puppet-autoconf
@@ -16,7 +16,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
-    boxen (3.0.1)
+    boxen (3.0.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-caffeine
@@ -51,7 +51,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-firefox
   specs:
-    firefox (1.1.1)
+    firefox (1.1.3)
 
 GITHUBTARBALL
   remote: boxen/puppet-gcc
@@ -121,12 +121,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-mysql
   specs:
-    mysql (1.1.3)
+    mysql (1.1.5)
 
 GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
-    nginx (1.4.0)
+    nginx (1.4.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-nodejs
@@ -141,7 +141,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-osx
   specs:
-    osx (1.5.0)
+    osx (1.6.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-pcre
@@ -151,7 +151,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-php
   specs:
-    php (1.1.1)
+    php (1.1.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-phpstorm
@@ -181,7 +181,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
-    ruby (6.3.0)
+    ruby (6.3.4)
 
 GITHUBTARBALL
   remote: boxen/puppet-screen
@@ -191,7 +191,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-sequel_pro
   specs:
-    sequel_pro (1.0.0)
+    sequel_pro (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-sizeup
@@ -206,7 +206,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-skype
   specs:
-    skype (1.0.3)
+    skype (1.0.6)
 
 GITHUBTARBALL
   remote: boxen/puppet-sourcetree
@@ -236,7 +236,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-textual
   specs:
-    textual (3.1.0)
+    textual (3.2.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-transmission
@@ -251,17 +251,17 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-vagrant
   specs:
-    vagrant (2.0.10)
+    vagrant (2.0.12)
 
 GITHUBTARBALL
   remote: boxen/puppet-virtualbox
   specs:
-    virtualbox (1.0.5)
+    virtualbox (1.0.6)
 
 GITHUBTARBALL
   remote: boxen/puppet-vlc
   specs:
-    vlc (1.0.3)
+    vlc (1.0.5)
 
 GITHUBTARBALL
   remote: boxen/puppet-vmware_fusion
@@ -281,7 +281,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
-    xquartz (1.0.0)
+    xquartz (1.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-zsh
@@ -299,17 +299,17 @@ GITHUBTARBALL
     stdlib (4.1.0)
 
 DEPENDENCIES
-  adium (= 1.1.1)
-  alfred (= 1.1.2)
+  adium (= 1.2.0)
+  alfred (= 1.1.5)
   autoconf (= 1.0.0)
-  boxen (= 3.0.1)
+  boxen (= 3.0.2)
   caffeine (= 1.0.0)
   charles (= 1.0.2)
   chrome (= 1.1.1)
   dnsmasq (= 1.0.0)
   dropbox (= 1.1.1)
   evernote (= 2.0.4)
-  firefox (= 1.1.1)
+  firefox (= 1.1.3)
   gcc (= 2.0.1)
   git (= 1.2.5)
   heroku (= 2.0.0)
@@ -324,39 +324,39 @@ DEPENDENCIES
   libtool (= 1.0.0)
   mongodb (= 1.0.4)
   mou (= 1.1.3)
-  mysql (= 1.1.3)
-  nginx (= 1.4.0)
+  mysql (= 1.1.5)
+  nginx (= 1.4.2)
   nodejs (= 3.2.9)
   openssl (= 1.0.0)
-  osx (= 1.5.0)
+  osx (= 1.6.0)
   pcre (= 1.0.0)
-  php (= 1.1.1)
+  php (= 1.1.2)
   phpstorm (= 1.0.3)
   pkgconfig (= 1.0.0)
   property_list_key (= 0.1.0)
   redis (= 1.0.0)
   repository (= 2.2.0)
-  ruby (= 6.3.0)
+  ruby (= 6.3.4)
   screen (= 1.0.0)
-  sequel_pro (= 1.0.0)
+  sequel_pro (= 1.0.1)
   sizeup (= 1.0.0)
   skitch (= 1.0.2)
-  skype (= 1.0.3)
+  skype (= 1.0.6)
   sourcetree (= 1.0.0)
   spotify (= 1.0.1)
   stdlib (= 4.1.0)
   sublime_text_2 (= 1.1.2)
   sudo (= 1.0.0)
   textmate (= 1.1.0)
-  textual (= 3.1.0)
+  textual (= 3.2.1)
   transmission (= 1.0.0)
   transmit (= 1.0.1)
-  vagrant (= 2.0.10)
-  virtualbox (= 1.0.5)
-  vlc (= 1.0.3)
+  vagrant (= 2.0.12)
+  virtualbox (= 1.0.6)
+  vlc (= 1.0.5)
   vmware_fusion (= 1.0.0)
   wedge (= 1.0.1)
   wget (= 1.0.0)
-  xquartz (= 1.0.0)
+  xquartz (= 1.1.0)
   zsh (= 1.0.0)
 

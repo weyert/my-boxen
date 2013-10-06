@@ -89,8 +89,7 @@ github "mongodb",		 "1.0.4"
 github "charles",		 "1.0.2"
 
 # Browsers
-github "firefox", 		 "1.1.3"
-#, :repo => "weyert/puppet-firefox"
+github "firefox", 		 "1.1.3", :repo => "weyert/puppet-firefox"
 github "chrome", 	     	 "1.1.1"
 
 
@@ -99,7 +98,7 @@ github "transmission",		 "1.0.0"
 github "vlc",			 "1.0.5"
 github "phpstorm", 	    	 "1.0.3" # 1.0.3
 github "textual",		 "3.2.1"
-github "vmware_fusion",		 "1.0.0"
+github "vmware_fusion",		 "1.0.0", :repo => "weyert/puppet-vmware_fusion"
 github "screen",		 "1.0.0"
 github "wedge",         	 "1.0.1"
 github "evernote",      	 "2.0.4"
