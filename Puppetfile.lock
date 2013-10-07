@@ -39,11 +39,6 @@ GITHUBTARBALL
     dnsmasq (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-dropbox
-  specs:
-    dropbox (1.1.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-evernote
   specs:
     evernote (2.0.4)
@@ -289,6 +284,11 @@ GITHUBTARBALL
     stdlib (4.1.0)
 
 GITHUBTARBALL
+  remote: weyert/puppet-dropbox
+  specs:
+    dropbox (1.1.2)
+
+GITHUBTARBALL
   remote: weyert/puppet-firefox
   specs:
     firefox (1.1.3)
@@ -307,7 +307,7 @@ DEPENDENCIES
   charles (= 1.0.2)
   chrome (= 1.1.1)
   dnsmasq (= 1.0.0)
-  dropbox (= 1.1.1)
+  dropbox (= 1.1.2)
   evernote (= 2.0.4)
   firefox (= 1.1.3)
   gcc (= 2.0.1)
