@@ -14,10 +14,10 @@ class people::weyert {
   $dotfiles_dir = "${boxen::config::srcdir}/.oh-my-zsh"
 
   # Updating the global gitignore file
-  notify { 'class people::weyert: Updating the git global ignore file ': }
+  notify { 'class people::weyert: Updating the global gitignore file ': }
   File <| title == "${git::config::configdir}/gitignore" |> {
     source  => undef,
-    content => 'puppet:///modules/weyert/gitignore_global',
+    content => 'puppet:///modules/people/manifests/weyert/templates/gitignore_global',
     require => File["${git::config::configdir}"]
   }
 

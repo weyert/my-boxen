@@ -1,5 +1,5 @@
 upstream <%= server_name %> {
- server unix:<%= scope.lookupvar "boxen::config::socketdir" %>/<%= name %>;
+ server unix:/opt/boxen/data/project-sockets/<%= name %>;
 }
 
 server {
@@ -10,26 +10,47 @@ server {
 
   client_max_body_size 50M;
 
-  error_page 500 502 503 504 /50x.html;
-
+  # Fallback for the 405 HTTP error
+  error_page 405 =200 $uri;
+  error_page 502 =200 $uri;
+ 
   if ($host ~* "www") {
     rewrite ^(.*)$ http://<%= server_name %>$1 permanent;
     break;
   }
 
-  location = /50x.html {
-    root html;
-  }
+  #
+  # location = /50x.html {
+  #  root html;
+  # }
 
   location / {
+    # Add CORS header to the requests
+    add_header Access-Control-Allow-Origin *;
+    add_header Access-Control-Allow-Methods "POST, GET, OPTIONS";
+
+    # check for index.html for directory index
+    # if its there on the filesystem then rewite 
+    # the url to add /index.html to the end of it
+    # and then break to send it to the next config rules.
     if (-f $request_filename/index.html) {
       rewrite (.*) $1/index.html break;
     }
 
+    # check if the request method is not GET if so
+    # pass it to the proxy
+    if ($request_method != GET) {
+      proxy_pass http://<%= server_name %>;
+      break;
+    }    
+
+    # check if the request filename with .html extension
+    # exists, if so rewrite the url to use the .html extension
     if (-f $request_filename.html) {
       rewrite (.*) $1.html break;
     }
 
+    # Proxying request for files which don't exist
     if (!-f $request_filename) {
       proxy_pass http://<%= server_name %>;
       break;
