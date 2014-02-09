@@ -33,8 +33,9 @@ class people::weyert::applications {
 	include phpstorm
 	class { 'intellij':
 	    edition => 'community',
-	    version => '12.1.5'
+	    version => '13.0.2'
 	}
+	include androidstudio
 
 	# Custom applications
 	#	package { 'wget': }
